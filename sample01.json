@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "52047018-a206-4d75-a788-48f51e8ee1f0",
+		"name": "Newman test collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get actions newman",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://atp-newman-runner-svt.dev-atp-cloud.netcracker.com/api/v1/actions",
+					"protocol": "https",
+					"host": [
+						"atp-newman-runner-svt.dev-atp-cloud.netcracker.com"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"actions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

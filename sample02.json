@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "52047018-a206-4d75-a788-48f51e8ee1f0",
+		"name": "Newman test collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get actions newman",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/actions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"actions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
